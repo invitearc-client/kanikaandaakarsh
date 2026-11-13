@@ -43,7 +43,7 @@ export default function Events() {
   return (
     <>
       {/* Sagan event */}
-      <div className="flex scroll-mt-6 flex-col justify-center items-center bg-[url('/assets/ring_bg.webp')] bg-cover bg-no-repeat">
+      {/* <div className="flex scroll-mt-6 flex-col justify-center items-center bg-[url('/assets/ring_bg.webp')] bg-cover bg-no-repeat">
         <Reveal from="top" className="w-full">
           <img
             src="/assets/ring_top.webp"
@@ -88,7 +88,7 @@ export default function Events() {
             className="w-full"
           />
         </Reveal>
-      </div>
+      </div> */}
 
 
 {/* haldi event */}
@@ -107,16 +107,15 @@ export default function Events() {
             Haldi
           </h2>
           <p className="text-[#5e3d22] font-cormorant-garamond text-[15px] md:text-base lg:text-[25px]">
-            2 December 2026 · Wednesday
+            28 November 2026 · Saturday
           </p>
           <p className="text-[#5e3d22] font-cormorant-garamond text-[15px] md:text-base text-center lg:text-[25px]">
-            11:00 AM 
+            12:00 PM 
           </p>
           <p className="text-[#5e3d22] font-cormorant-garamond text-[14px] md:text-base text-center lg:text-[25px]">
-           Victoria Grand Banquet Hall <br />
-            Block A, MBR Enclave, Dwarka
+           At Our Residence
           </p>
-
+{/* 
           <div className="flex flex-col items-center justify-center">
             <a
               href="https://maps.app.goo.gl/b8aAibBMmkEL5yfN7"
@@ -126,7 +125,7 @@ export default function Events() {
             >
               Get Direction
             </a>
-          </div>
+          </div> */}
         </div>
 
         <Reveal from="bottom" className="w-3/6">
@@ -148,7 +147,7 @@ export default function Events() {
 
 
       {/* Cocktail event */}
-      <div className="flex scroll-mt-6 flex-col justify-center items-center bg-[url('/assets/cocktail_bg.webp')] bg-cover bg-no-repeat">
+      {/* <div className="flex scroll-mt-6 flex-col justify-center items-center bg-[url('/assets/cocktail_bg.webp')] bg-cover bg-no-repeat">
         <div className="flex flex-col items-center rounded-2xl lg:py-12 lg:px-20 px-6 md:mt-20 mt-16">
         
           <h2 className="text-[#8c1034] font-cormorant-upright font-semibold  text-[40px] md:text-5xl lg:text-[70px]">
@@ -184,7 +183,7 @@ export default function Events() {
     className="block w-full h-auto"
   />
 </Reveal>
-      </div>
+      </div> */}
 
       
 
@@ -200,21 +199,17 @@ export default function Events() {
             Wedding
           </h2>
           <p className="text-[#fff] font-cormorant-garamond text-[15px] md:text-base lg:text-[25px]">
-            5 December 2026 · Saturday
+            1 December 2026 · Tuesday
           </p>
-          <p className="text-[#fff] font-cormorant-garamond text-[15px] md:text-base lg:text-[25px] text-center">
-           Reception of baraat - 8pm <br/>
-           Dinner - 9pm  <br/>
-Doli - Taaro ki Chaaon mein
-          </p>
+         
           <p className="text-[#fff] font-cormorant-garamond text-[14px] md:text-base text-center lg:text-[25px]">
-            The Medallion by Kawatra’s<br />
-            Golden Paris Kawatra Tent, Shivaji Enclave, <br/> Raja Garden, Delhi, 110027
+            Revello<br />
+            D Block, Kapas Hera Estate,<br/> Delhi 110097
           </p>
 
           <div className="flex flex-col items-center justify-center">
             <a
-              href="https://maps.app.goo.gl/F4SAdgH65tPGREAKA"
+              href="https://maps.app.goo.gl/7rwGMMA2W5xQJxLz6"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 w-36 rounded-full border border-[#8c1034] bg-[#f0f0f0] px-2 py-1.5 lg:px-16 lg:py-2.5 md:px-16 md:py-2.5 text-[12px] md:text-[17px] text-center font-cormorant-garamond  tracking-widest text-[#8c1034] transition-all duration-300 hover:bg-[#8c1034] hover:text-white md:w-auto md:text-4xl lg:text-[20px]"

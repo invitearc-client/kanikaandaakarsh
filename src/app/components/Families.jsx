@@ -9,20 +9,31 @@ export default function Families() {
           RSVP
         </h2>
         <p className="text-center text-[16px] tracking-widest text-[#C99333] font-cormorant-garamond md:text-2xl">
-          Verma Family <br/>9999802090 <br/>
-9999676040<br/><p className="py-2">and</p> "A Special Tail Wagging From"
-          <div className="flex flex-col justify-center items-center mt-6"> <img
-              src="/assets/dog_gif.gif"
-              alt="Instagram"
-              className="object-contain h-30"
-            /></div>
+          Garg Family <br />
+          9310303099 <br />
+          9555562238
         </p>
+
+      
         <div className="flex flex-col justify-center items-center mt-8">
+          
+          
+          <a
+            href="https://invitearc.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className=" flex items-center"
+          > <img
+          src="/assets/invite.png"
+          alt="Wedding Logo"
+          className="md:w-17 w-13"
+        /></a>
+          
           <a
             href="https://www.instagram.com/theinvitearc/"
             target="_blank"
             rel="noopener noreferrer"
-            className=" flex items-center gap-3 font-serif text-[16px] text-[#546F2F]"
+            className=" flex items-center gap-3 font-serif text-[16px] text-[#546F2F] mt-2"
           >
             <img
               src="/assets/instagram.png"

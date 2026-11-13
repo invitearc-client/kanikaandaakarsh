@@ -3,11 +3,15 @@
 import { useEffect, useRef, useState } from "react";
 
 const images = [
-   "/assets/couple.jpg",
-  "/assets/couple_1.jpeg",
-  "/assets/couple_2.jpeg",
+
+  "/assets/couple_1.jpg",
+  "/assets/couple_2.jpg",
   "/assets/couple_3.jpg",
   "/assets/couple_4.jpg",
+  "/assets/couple_5.jpg",
+  "/assets/couple_6.jpg",
+  "/assets/couple_7.jpg",
+  "/assets/couple_8.jpg",
  
 ];
 

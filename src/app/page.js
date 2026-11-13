@@ -66,7 +66,7 @@ export default function Home() {
 
       <audio
         ref={audioRef}
-        src="/assets/khushi.mp3"
+        src="/assets/kanika.mp3"
         loop
         preload="auto"
         playsInline
@@ -88,13 +88,13 @@ export default function Home() {
 
         <div className="absolute inset-x-0 top-10 md:top-20 lg:top-80 flex flex-col items-center text-center px-2">
           <h2 className="relative z-10 flex flex-col items-center text-[#C9850B] text-[44px] md:text-6xl lg:text-[90px] font-bold">
-            <span className="font-great-vibes">Khushi</span>
+            <span className="parisienne-regular">Kanika</span>
 
             <span className="font-great-vibes text-2xl md:text-2xl lg:text-[48px] text-[#C9850B] md:py-8">
               &
             </span>
 
-            <span className="font-great-vibes">Shubh</span>
+            <span className="parisienne-regular">Aakarsh</span>
           </h2>
         </div>
 

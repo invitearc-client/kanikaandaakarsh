@@ -76,24 +76,24 @@ export default function Details({ from = "bottom", className = "", children }) {
         <p className="relative z-10 text-[#546F2F] tracking-wider text-[14px] md:text-[20px] mt-4 font-cormorant-garamond  font-semibold">
           With the heavenly blessings of
           <br />
-          Late Sh. Ashok Kumar Verma & Late Smt. Rani Devi Verma
+          Late Duli Chand Garg & Mrs. Sharbati Garg
         </p>
 
         <h2 className="relative z-10 flex flex-col items-center text-[#C14405] text-5xl md:text-4xl lg:text-[90px] mt-12 font-semibold">
-          <span className="font-great-vibes">Khushi</span>
+          <span className="parisienne-regular">Kanika</span>
 
           <p className="text-[#546F2F] tracking-wider text-[15px] md:text-[20px] font-cormorant-garamond  font-semibold mt-2">
-            (D/o Mrs. Manju verma & Mr. Pankaj verma)
+            (D/o Mrs. Manju Garg & Mr. Davendra Garg)
           </p>
 
           <span className="font-great-vibes text-3xl md:text-2xl lg:text-[48px] text-[#C14405] md:py-10 py-6">
             With
           </span>
 
-          <span className="font-great-vibes">Shubh</span>
+          <span className="parisienne-regular">Aakarsh</span>
 
           <p className="text-[#546F2F] tracking-wider text-[15px] md:text-[20px] font-cormorant-garamond  font-semibold mt-2">
-            (S/o Mrs. Anuradha Verma & Mr. Praveen Verma)
+            (S/o Mrs. Reema Garg & Mr. Ashish Garg)
           </p>
         </h2>
 

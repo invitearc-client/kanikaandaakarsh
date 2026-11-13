@@ -12,19 +12,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://khushiandshubh2.vercel.app/"),
+  metadataBase: new URL("https://kanikaandaakarsh.vercel.app/"),
 
   openGraph: {
-    title: "Khushi & Shubh",
-    description: "Join as they begin their forever. 1, 2, 3 & 5 December, 2026",
-    url: "https://khushiandshubh2.vercel.app/",
+    title: "Kanika & Aakarsh",
+    description: "Join as they begin their forever. 28 November & 1 December, 2026",
+    url: "https://kanikaandaakarsh.vercel.app/",
     siteName: "InviteArc",
     images: [
       {
         url: "/og.jpg",
         width: 1200,
         height: 630,
-        alt: "Khushi & Shubh",
+        alt: "Kanika & Aakarsh",
       },
     ],
     type: "website",
@@ -32,13 +32,13 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Khushi & Shubh",
-    description: "Join as they begin their forever. 1, 2, 3 & 5 December, 2026",
+    title: "Kanika & Aakarsh",
+    description: "Join as they begin their forever. 28 November & 1 December, 2026",
     images: ["/og.jpg"],
   },
 
   other: {
-    "og:image:secure_url": "https://khushiandshubh2.vercel.app/og.jpg",
+    "og:image:secure_url": "https://kanikaandaakarsh.vercel.app/og.jpg",
     "og:image:type": "image/jpg",
   },
 };
