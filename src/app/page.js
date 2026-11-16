@@ -9,6 +9,28 @@ import Families from "./components/Families";
 import RoseHeroTemp from "./components/RoseHeroTemp";
 import IntroVideo from "./components/IntroVideo";
 export default function Home() {
+
+
+
+const [showScroll, setShowScroll] = useState(true);
+
+useEffect(() => {
+  const handleScroll = () => {
+    setShowScroll(window.scrollY < 20);
+  };
+
+  window.addEventListener("scroll", handleScroll, { passive: true });
+
+  handleScroll();
+
+  return () => {
+    window.removeEventListener("scroll", handleScroll);
+  };
+}, []);
+
+
+
+
   const audioRef = useRef(null);
   const [started, setStarted] = useState(false);
   const [playing, setPlaying] = useState(false);
@@ -72,6 +94,41 @@ export default function Home() {
         playsInline
       />
       <IntroVideo />
+      <div className="fixed bottom-20 right-2 z-50 flex flex-col items-center">
+  <button
+    type="button"
+    onClick={() => {
+      window.scrollBy({
+        top: window.innerHeight * 0.7,
+        behavior: "smooth",
+      });
+    }}
+    className="flex flex-col items-center gap-2 text-[#fff]"
+    aria-label="Scroll down to explore"
+  >
+    <span className="flex h-16 w-6 items-center justify-center rounded-full border-2 border-[#C14405] bg-[#C14405] cursor-pointer">
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <path d="m7 10 5 5 5-5" />
+        <path d="m7 5 5 5 5-5" />
+      </svg>
+    </span>
+
+    <span className="animate-pulse text-[12px] tracking-[2px] poppins-bold  font-bold text-[#C14405]">
+      SCROLL <br /> DOWN
+    </span>
+   
+  </button>
+
+</div>
       <div className="relative w-full overflow-hidden">
         <div className="pointer-events-none fixed inset-0 z-20 h-screen w-screen">
           <RoseHeroTemp />
