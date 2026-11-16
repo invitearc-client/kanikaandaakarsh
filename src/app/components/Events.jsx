@@ -202,8 +202,12 @@ export default function Events() {
             1 December 2026 · Tuesday
           </p>
          
-          <p className="text-[#fff] font-cormorant-garamond text-[14px] md:text-base text-center lg:text-[25px]">
-            Revello<br />
+          <p className="text-[#fff] font-cormorant-garamond text-[21px] md:text-base text-center lg:text-[25px] font-bold">
+            Revello
+           
+          </p>
+           <p className="text-[#fff] font-cormorant-garamond text-[14px] md:text-base text-center lg:text-[25px]">
+         
             D Block, Kapas Hera Estate,<br/> Delhi 110097
           </p>
 

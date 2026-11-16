@@ -79,18 +79,18 @@ export default function Details({ from = "bottom", className = "", children }) {
           Late Duli Chand Garg & Mrs. Sharbati Garg
         </p>
 
-        <h2 className="relative z-10 flex flex-col items-center text-[#C14405] text-5xl md:text-4xl lg:text-[90px] mt-12 font-semibold">
-          <span className="parisienne-regular">Kanika</span>
+        <h2 className="relative z-10 flex flex-col items-center text-[#C14405] text-5xl md:text-4xl lg:text-[90px] mt-12">
+          <span className="cookie-regular">Kanika</span>
 
           <p className="text-[#546F2F] tracking-wider text-[15px] md:text-[20px] font-cormorant-garamond  font-semibold mt-2">
             (D/o Mrs. Manju Garg & Mr. Davendra Garg)
           </p>
 
-          <span className="font-great-vibes text-3xl md:text-2xl lg:text-[48px] text-[#C14405] md:py-10 py-6">
+          <span className="cookie-regular text-3xl md:text-2xl lg:text-[48px] text-[#C14405] md:py-10 pt-6 pb-3">
             With
           </span>
 
-          <span className="parisienne-regular">Aakarsh</span>
+          <span className="cookie-regular">Aakarsh</span>
 
           <p className="text-[#546F2F] tracking-wider text-[15px] md:text-[20px] font-cormorant-garamond  font-semibold mt-2">
             (S/o Mrs. Reema Garg & Mr. Ashish Garg)
