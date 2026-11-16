@@ -8,10 +8,15 @@ export default function Families() {
         <h2 className="mt-4 text-center text-[40px] leading-tight text-[#8c1034] font-cormorant-upright font-semibold  md:text-4xl lg:text-[60px]">
           RSVP
         </h2>
+        <p className="text-center text-[21px] tracking-widest text-[#C99333] font-cormorant-garamond md:text-2xl font-bold">
+          Garg Family
+          
+        </p>
         <p className="text-center text-[16px] tracking-widest text-[#C99333] font-cormorant-garamond md:text-2xl">
-          Garg Family <br />
+          
           9310303099 <br />
-          9555562238
+          9555562238 <br/>
+          9810124626
         </p>
 
       

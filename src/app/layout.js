@@ -12,12 +12,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://kanikaandaakarsh.vercel.app/"),
+  metadataBase: new URL("https://kanikaandaakarsh2.vercel.app/"),
 
   openGraph: {
     title: "Kanika & Aakarsh",
     description: "Join as they begin their forever. 28 November & 1 December, 2026",
-    url: "https://kanikaandaakarsh.vercel.app/",
+    url: "https://kanikaandaakarsh2.vercel.app/",
     siteName: "InviteArc",
     images: [
       {
@@ -38,7 +38,7 @@ export const metadata = {
   },
 
   other: {
-    "og:image:secure_url": "https://kanikaandaakarsh.vercel.app/og.jpg",
+    "og:image:secure_url": "https://kanikaandaakarsh2.vercel.app/og.jpg",
     "og:image:type": "image/jpg",
   },
 };
