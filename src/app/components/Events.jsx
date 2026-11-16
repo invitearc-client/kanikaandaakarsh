@@ -201,9 +201,24 @@ export default function Events() {
           <p className="text-[#fff] font-cormorant-garamond text-[15px] md:text-base lg:text-[25px]">
             1 December 2026 · Tuesday
           </p>
+
+ <p className="text-[#fff] font-cormorant-garamond text-[17px] md:text-base lg:text-[25px]">
+          <b>Arrival of Barat - </b>  7:00 pm
+          </p>
+
+
+<p className="text-[#fff] font-cormorant-garamond text-[17px] md:text-base lg:text-[25px]">
+           <b>Dinner -</b>  8:00 pm
+          </p>
+
+
+
+ <p className="text-[#fff] font-cormorant-garamond text-[17px] md:text-base lg:text-[25px] font">
+      <b>Doli -</b>    Tarron Ki Chhaon Main
+          </p>
          
-          <p className="text-[#fff] font-cormorant-garamond text-[21px] md:text-base text-center lg:text-[25px] font-bold">
-            Revello
+          <p className="text-[#fff] font-cormorant-garamond text-[20px] md:text-base text-center lg:text-[25px] font-bold">
+            Revello Experience Hall
            
           </p>
            <p className="text-[#fff] font-cormorant-garamond text-[14px] md:text-base text-center lg:text-[25px]">

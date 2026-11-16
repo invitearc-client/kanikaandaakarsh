@@ -10,30 +10,42 @@ export default function Families() {
         </h2>
         <p className="text-center text-[21px] tracking-widest text-[#C99333] font-cormorant-garamond md:text-2xl font-bold">
           Garg Family
-          
         </p>
         <p className="text-center text-[16px] tracking-widest text-[#C99333] font-cormorant-garamond md:text-2xl">
-          
-          9310303099 <br />
-          9555562238 <br/>
-          9810124626
+          Ply samrat, Indirapuram (9310303099) <br />
+          Shree Shyam traders, Rajnagar ext. (9810124626) <br />
+          Chirag Garg (9555562238)
+        </p>
+        <p className="text-center text-[21px] tracking-widest text-[#C99333] font-cormorant-garamond md:text-2xl font-bold mt-4">
+          With best compliments
         </p>
 
-      
+        <p className="text-center text-[16px] tracking-widest text-[#C99333] font-cormorant-garamond md:text-2xl">
+          Abhishek Garg <br />
+          Chirag Garg <br />
+          Shantanu Garg
+          <br />
+          Chhavi Aman Garg <br />
+          Shweta Tarun Garg
+          <br />
+          Mansi Siddharth Singhal
+        </p>
+
         <div className="flex flex-col justify-center items-center mt-8">
-          
-          
           <a
             href="https://invitearc.com/"
             target="_blank"
             rel="noopener noreferrer"
             className=" flex items-center"
-          > <img
-          src="/assets/invite.png"
-          alt="Wedding Logo"
-          className="md:w-17 w-13"
-        /></a>
-          
+          >
+            {" "}
+            <img
+              src="/assets/invite.png"
+              alt="Wedding Logo"
+              className="md:w-17 w-13"
+            />
+          </a>
+
           <a
             href="https://www.instagram.com/theinvitearc/"
             target="_blank"
